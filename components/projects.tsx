@@ -24,10 +24,10 @@ const projects = [
     featured: true,
   },
   {
-    title: "Task Manager",
+    title: "College ERP System",
     description:
-      "A productivity app with Kanban-style boards, drag-and-drop functionality, due date reminders, and team collaboration features.",
-    tech: ["Next.js", "Prisma", "Tailwind CSS", "PostgreSQL"],
+      "A comprehensive enterprise resource planning system for college management with student enrollment, course registration, grade tracking, and administrative dashboards.",
+    tech: ["Next.js", "Prisma", "PostgreSQL", "React"],
     github: "https://github.com/shreyakhacharia",
     featured: true,
   },
