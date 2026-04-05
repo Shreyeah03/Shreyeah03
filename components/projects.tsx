@@ -9,9 +9,8 @@ const projects = [
     title: "Education Advisor",
     description:
       "An intelligent platform that helps students navigate their educational journey with personalized recommendations, course planning, and career guidance.",
-    tech: ["Next.js", "TypeScript", "AI/ML", "PostgreSQL"],
-    github: "https://github.com/shreyakhacharia",
-    live: "https://example.com",
+    tech: ["Django", "Python", "PostgreSQL", "React"],
+    github: "https://github.com/Shreyeah03/Education-Advisor.git",
     featured: true,
   },
   {
@@ -19,16 +18,15 @@ const projects = [
     description:
       "A feature-rich messaging platform with real-time communication, typing indicators, read receipts, and group chat functionality powered by WebSockets.",
     tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com/shreyakhacharia",
-    live: "https://example.com",
+    github: "https://github.com/Shreyeah03/my-chat-app.git",
     featured: true,
   },
   {
     title: "College ERP System",
     description:
       "A comprehensive enterprise resource planning system for college management with student enrollment, course registration, grade tracking, and administrative dashboards.",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "React"],
-    github: "https://github.com/shreyakhacharia",
+    tech: ["Django", "Python", "PostgreSQL", "React"],
+    github: "https://github.com/Shreyeah03/College_ERP_System.git",
     featured: true,
   },
 ];
