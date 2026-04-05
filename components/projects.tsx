@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Github, ExternalLink, Folder } from "lucide-react";
+import { Github, Folder } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const projects = [
@@ -65,30 +65,17 @@ function ProjectCard({
         <div className="relative z-10">
           <div className="flex items-start justify-between mb-4">
             <Folder className="w-10 h-10 text-primary" />
-            <div className="flex gap-3">
-              {project.github && (
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                  aria-label="View on GitHub"
-                >
-                  <Github className="w-5 h-5" />
-                </a>
-              )}
-              {project.live && (
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                  aria-label="View live site"
-                >
-                  <ExternalLink className="w-5 h-5" />
-                </a>
-              )}
-            </div>
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="View on GitHub"
+              >
+                <Github className="w-5 h-5" />
+              </a>
+            )}
           </div>
 
           <h3 className="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
@@ -134,30 +121,17 @@ function ProjectCard({
     >
       <div className="flex items-start justify-between mb-3">
         <Folder className="w-6 h-6 text-primary/60" />
-        <div className="flex gap-2">
-          {project.github && (
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="View on GitHub"
-            >
-              <Github className="w-4 h-4" />
-            </a>
-          )}
-          {project.live && (
-            <a
-              href={project.live}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="View live site"
-            >
-              <ExternalLink className="w-4 h-4" />
-            </a>
-          )}
-        </div>
+        {project.github && (
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+            aria-label="View on GitHub"
+          >
+            <Github className="w-4 h-4" />
+          </a>
+        )}
       </div>
 
       <h3 className="text-lg font-medium text-foreground mb-2 group-hover:text-primary transition-colors">
