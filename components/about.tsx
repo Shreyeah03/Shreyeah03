@@ -4,16 +4,16 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  { name: "React", level: 95 },
-  { name: "TypeScript", level: 90 },
+  { name: "React", level: 90 },
+  { name: "JavaScript", level: 92 },
+  { name: "Python", level: 88 },
   { name: "Node.js", level: 85 },
-  { name: "Next.js", level: 92 },
-  { name: "PostgreSQL", level: 80 },
+  { name: "PostgreSQL", level: 82 },
   { name: "Tailwind CSS", level: 95 },
 ];
 
 const techStack = [
-  "JavaScript", "Python", "Go", "GraphQL", "Docker", "AWS", "Vercel", "Prisma", "Redis", "MongoDB"
+  "Django", "Python", "JavaScript", "React", "Node.js", "Docker", "Firebase", "MongoDB", "PostgreSQL", "SQLite", "Vercel", "Tailwind", "C++", "C"
 ];
 
 export function About() {
@@ -48,14 +48,14 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate full-stack developer with 5+ years of experience building
-              scalable web applications. I love turning complex problems into simple,
-              beautiful, and intuitive solutions.
+              I'm a passionate full-stack developer currently pursuing my college degree. 
+              I love building real-world applications that solve actual problems, from 
+              educational platforms to real-time communication systems and enterprise solutions.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies,
-              contributing to open source projects, or sharing knowledge with
-              the developer community.
+              I'm constantly learning new technologies and love working with modern web stacks. 
+              I enjoy collaborating with others, contributing to projects, and pushing myself 
+              to build better, more efficient solutions.
             </p>
 
             <div className="pt-6">
