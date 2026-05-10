@@ -50,7 +50,7 @@ export function Header() {
           className="text-lg font-semibold text-foreground hover:text-primary transition-colors duration-300"
         >
           <span className="text-primary">{"<"}</span>
-          YourName
+          Shreya Khacharia
           <span className="text-primary">{" />"}</span>
         </Link>
 
