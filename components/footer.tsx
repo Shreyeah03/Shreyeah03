@@ -4,7 +4,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <p>
           Designed & Built by{" "}
-          <span className="text-primary hover:underline cursor-pointer">Your Name</span>
+          <span className="text-primary hover:underline cursor-pointer">Shreya Khacharia</span>
         </p>
         <p className="text-center">
           Built with{" "}
