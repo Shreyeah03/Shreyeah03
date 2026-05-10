@@ -77,7 +77,7 @@ export function Hero() {
 
           <div className="flex items-center gap-2">
             {[
-              { icon: Github, href: "https://github.com/shreyakhacharia", label: "GitHub" },
+              { icon: Github, href: "https://github.com/Shreyeah03", label: "GitHub" },
               { icon: Linkedin, href: "https://linkedin.com/in/shreyakhacharia", label: "LinkedIn" },
               { icon: Mail, href: "mailto:shreya@example.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (

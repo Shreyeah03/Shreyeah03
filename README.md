@@ -69,6 +69,11 @@ Feel free to reach out to me:
 - **Email**: shreya@example.com
 - **LinkedIn**: [Shreya Khacharia](https://linkedin.com/in/shreyakhacharia)
 
+---
+
+### 🔗 View My Profile
+Visit my GitHub profile: [github.com/Shreyeah03](https://github.com/Shreyeah03)
+
 ## 🎨 Features
 
 - ✨ Interactive galaxy-themed design with particle effects
