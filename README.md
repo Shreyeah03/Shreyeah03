@@ -1,30 +1,82 @@
-# Github portfolio
+# Shreya Khacharia - Portfolio
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Welcome to my interactive portfolio! This is a showcase of my projects and skills as a full-stack developer.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/shreyeah03s-projects/v0-github-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/uRz2fK3IaK3)
+## 🚀 Live Demo
 
-## Overview
+Check out the deployed portfolio: [shreyakhacharia.vercel.app](https://shreyakhacharia.vercel.app)
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 📋 Projects
 
-## Deployment
+### 1. **Education Advisor**
+An intelligent platform that helps students navigate their educational journey with personalized recommendations, course planning, and career guidance.
 
-Your project is live at:
+- **Tech Stack**: Django, Python, PostgreSQL, React
+- **Repository**: [Education Advisor](https://github.com/Shreyeah03/Education-Advisor.git)
 
-**[https://vercel.com/shreyeah03s-projects/v0-github-portfolio](https://vercel.com/shreyeah03s-projects/v0-github-portfolio)**
+### 2. **Real Time Chat Application**
+A feature-rich messaging platform with real-time communication, typing indicators, read receipts, and group chat functionality powered by WebSockets.
 
-## Build your app
+- **Tech Stack**: React, Node.js, Socket.io, MongoDB
+- **Repository**: [My Chat App](https://github.com/Shreyeah03/my-chat-app.git)
 
-Continue building your app on:
+### 3. **College ERP System**
+A comprehensive enterprise resource planning system for college management with student enrollment, course registration, grade tracking, and administrative dashboards.
 
-**[https://v0.app/chat/uRz2fK3IaK3](https://v0.app/chat/uRz2fK3IaK3)**
+- **Tech Stack**: Django, Python, PostgreSQL, React
+- **Repository**: [College ERP System](https://github.com/Shreyeah03/College_ERP_System.git)
 
-## How It Works
+## 💻 Tech Stack
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+**Languages**: JavaScript, Python, C++, C
+
+**Frontend**: React, Tailwind CSS
+
+**Backend**: Node.js, Django
+
+**Databases**: PostgreSQL, MongoDB, SQLite
+
+**Tools & Platforms**: Docker, Firebase, Vercel
+
+## 🎓 About Me
+
+I'm a college student passionate about building real-world applications that solve actual problems. I love working with modern web technologies and constantly learning new skills to improve my craft. I'm experienced in full-stack development with a focus on creating intuitive and scalable solutions.
+
+## 🛠️ Getting Started
+
+### Clone the Repository
+```bash
+git clone https://github.com/Shreyeah03/portfolio.git
+cd portfolio
+```
+
+### Install Dependencies
+```bash
+npm install
+```
+
+### Run Development Server
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
+
+## 📧 Contact
+
+Feel free to reach out to me:
+- **GitHub**: [@Shreyeah03](https://github.com/Shreyeah03)
+- **Email**: shreya@example.com
+- **LinkedIn**: [Shreya Khacharia](https://linkedin.com/in/shreyakhacharia)
+
+## 🎨 Features
+
+- ✨ Interactive galaxy-themed design with particle effects
+- 🎯 Smooth scroll navigation
+- 📱 Fully responsive mobile-first design
+- 🌟 Animated elements and glowing effects
+- ⚡ Fast performance with Next.js
+
+---
+
+Built with ❤️ using Next.js, React, and Tailwind CSS
